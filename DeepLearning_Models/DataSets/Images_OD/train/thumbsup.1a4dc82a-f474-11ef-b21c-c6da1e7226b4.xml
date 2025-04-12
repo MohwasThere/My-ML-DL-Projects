@@ -1,0 +1,26 @@
+<annotation>
+	<folder>thumbsup</folder>
+	<filename>thumbsup.1a4dc82a-f474-11ef-b21c-c6da1e7226b4.jpg</filename>
+	<path>/Volumes/Mohs's_SSD/DeepLearning Models/DataSets/Images_OD/thumbsup/thumbsup.1a4dc82a-f474-11ef-b21c-c6da1e7226b4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ThumsUp</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>571</xmin>
+			<ymin>676</ymin>
+			<xmax>839</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
+</annotation>

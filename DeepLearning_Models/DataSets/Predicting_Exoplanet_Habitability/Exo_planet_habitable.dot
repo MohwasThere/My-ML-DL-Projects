@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="P_TEMP_SURF <= 317.778\ngini = 0.667\nsamples = 10601\nvalue = [3534, 3534, 3533]\nclass = 0", fillcolor="#ffffff"] ;
+1 [label="P_RADIUS <= 1.606\ngini = 0.501\nsamples = 7072\nvalue = [5, 3534, 3533]\nclass = 1", fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="P_TYPE_TEMP <= 1.0\ngini = 0.001\nsamples = 3536\nvalue = [2, 3534, 0]\nclass = 1", fillcolor="#39e581"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0, 0]\nclass = 0", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 3534\nvalue = [0, 3534, 0]\nclass = 1", fillcolor="#39e581"] ;
+2 -> 4 ;
+5 [label="P_FLUX <= 0.216\ngini = 0.002\nsamples = 3536\nvalue = [3, 0, 3533]\nclass = 2", fillcolor="#8139e5"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 3\nvalue = [3, 0, 0]\nclass = 0", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 3533\nvalue = [0, 0, 3533]\nclass = 2", fillcolor="#8139e5"] ;
+5 -> 7 ;
+8 [label="gini = 0.0\nsamples = 3529\nvalue = [3529, 0, 0]\nclass = 0", fillcolor="#e58139"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>livelong</folder>
+	<filename>livelong.b2058846-f44d-11ef-9ff4-c6da1e7226b4.jpg</filename>
+	<path>/Volumes/Mohs's_SSD/DeepLearning Models/DataSets/Images_OD/livelong/livelong.b2058846-f44d-11ef-9ff4-c6da1e7226b4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>LiveLong</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1124</xmin>
+			<ymin>561</ymin>
+			<xmax>1394</xmax>
+			<ymax>978</ymax>
+		</bndbox>
+	</object>
+</annotation>
